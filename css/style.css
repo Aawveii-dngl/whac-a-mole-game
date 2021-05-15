@@ -1,0 +1,39 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+}
+.total-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.squares {
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-width: 3px;
+}
+.mole {
+  background-image: url("../photos/mole.png");
+  background-size: cover;
+}
+.Removeall {
+  display: none;
+}
+button {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 10rem;
+  height: 5rem;
+  border: none;
+  font-size: 2rem;
+  border-radius: 20px;
+  color: aquamarine;
+  background-color: gray;
+  cursor: pointer;
+}
